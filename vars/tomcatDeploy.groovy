@@ -6,3 +6,4 @@ def call(ip,user,credID){
      sh "ssh ${user}@${ip} /opt/tomcat8/bin/shutdown.sh"
 
 }
+}
